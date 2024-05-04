@@ -3,16 +3,16 @@ import { FaBars } from "react-icons/fa";
 import { IoIosClose } from "react-icons/io";
 
 const Header = () => {
-  const [sidebar, setSidebar] = useState(true)
+  const [sidebar, setSidebar] = useState(false)
   return (
     <div className='bg-[#2699fb] p-8'>
       <div className="max-w-[1240px] mx-auto flex justify-between items-center">
         <div className='font-bold text-3xl'>WsCube Tech.</div>
         {
           sidebar ? 
-            <FaBars className='text-white text-2xl md:hidden block' onClick={()=>{setSidebar(!sidebar)}}/>
-            :
-            <IoIosClose className='text-white text-3xl' onClick={()=>{setSidebar(!sidebar)}} />
+          <IoIosClose className='text-white text-3xl' onClick={()=>{setSidebar(!sidebar)}} />
+          :
+          <FaBars className='text-white text-2xl md:hidden block' onClick={()=>{setSidebar(!sidebar)}}/>
         }
         
         {/*  */}
