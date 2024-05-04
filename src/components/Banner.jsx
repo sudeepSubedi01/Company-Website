@@ -18,7 +18,7 @@ const Banner = () => {
               loop
             /></div>
         </div>
-        <Button/>
+        <Button btnTxt={'Get Started'}/>
 
       </div>
     </div>

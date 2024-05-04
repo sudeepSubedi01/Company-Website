@@ -15,7 +15,7 @@ const Experts = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio nostrum omnis atque dolor id accusantium laborum dolorum quod magni eaque voluptate harum ratione voluptates commodi corrupti, sequi impedit. Sed aliquam eveniet quas libero est vitae ut sunt fuga labore aperiam fugiat, consequuntur ipsa odio porro. Laudantium ad explicabo nemo deleniti.
           </p>
           <br />
-          <Button/>
+          <Button btnTxt={'Get Started'}/>
         </div>
       </div>
       </div>
