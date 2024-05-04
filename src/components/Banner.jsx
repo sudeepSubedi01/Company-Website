@@ -1,5 +1,6 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
+import Button from './Button'
 
 const Banner = () => {
   return (
@@ -17,6 +18,7 @@ const Banner = () => {
               loop
             /></div>
         </div>
+        <Button/>
 
       </div>
     </div>
