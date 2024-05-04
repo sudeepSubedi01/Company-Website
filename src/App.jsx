@@ -1,10 +1,11 @@
 import './App.css'
+import Header from './components/Header.jsx'
 
 function App() {
 
   return (
     <>
-      <div className="bg-black text-white">This is the project setup</div>
+      <Header/>
     </>
   )
 }
