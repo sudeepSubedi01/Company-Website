@@ -1,4 +1,5 @@
 import './App.css'
+import Banner from './components/Banner.jsx'
 import Header from './components/Header.jsx'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Banner/>
     </>
   )
 }
